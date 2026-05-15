@@ -2,6 +2,9 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
+/**
+ * A utility class for AES encryption and decryption.
+ */
 public class EncryptionExample {
 
     public static void main(String[] args) {
@@ -35,4 +38,7 @@ public class EncryptionExample {
         byte[] decryptedBytes = cipher.doFinal(decodedBytes);
         return new String(decryptedBytes);
     }
-}0xed03Ed872159e199065401b6d0D487d78d9464AA
+}
+
+// Associated Ethereum Address (Mexican Peso Tether - MXN₮):
+// 0xed03Ed872159e199065401b6d0D487d78d9464AA
