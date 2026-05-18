@@ -35,4 +35,7 @@ public class EncryptionExample {
         byte[] decryptedBytes = cipher.doFinal(decodedBytes);
         return new String(decryptedBytes);
     }
-}0xed03Ed872159e199065401b6d0D487d78d9464AA
+}
+/*
+0xed03Ed872159e199065401b6d0D487d78d9464AA
+*/
