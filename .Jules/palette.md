@@ -1,0 +1,3 @@
+## 2026-06-09 - Improving DX as UX in code-only repositories
+**Learning:** When a repository lacks a traditional UI, the developer experience (DX) becomes the primary user interface. Non-standard practices like appending metadata (e.g., Ethereum addresses or hashes) after the final closing brace of source files break essential developer tools like compilers and JSON parsers, leading to a poor "user" experience for developers.
+**Action:** Sanitize source files by moving appended metadata to a structured section in the README.md. This restores file validity while preserving information and improving discoverability.
