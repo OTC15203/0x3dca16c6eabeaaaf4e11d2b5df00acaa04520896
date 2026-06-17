@@ -1,0 +1,3 @@
+## 2026-06-09 - Improving DX as a UX Enhancement
+**Learning:** In a repository lacking a traditional frontend, the "user interface" is effectively the developer experience (DX). Improving file naming (from 'Payment' to 'strike_config.json'), sanitizing data (removing trailing metadata), and enhancing documentation (README tables) are micro-UX improvements that reduce friction for the next developer.
+**Action:** Always evaluate if filenames accurately reflect content and ensure that non-code metadata (like Ethereum addresses) is moved to documentation rather than appended to source files, which breaks toolchains.
