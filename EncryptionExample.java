@@ -6,14 +6,14 @@ public class EncryptionExample {
 
     public static void main(String[] args) {
         String message = "YourSecretMessage";
-        String secretKey = "YourSecretKey123"; // Needs to be 16, 24, or 32 characters long for AES
+        String secretKey = "YourSecretKey123";
 
         try {
             String encryptedMessage = encrypt(message, secretKey);
-            System.out.println("Encrypted message: " + encryptedMessage);
+            System.out.println("✅ Encrypted: " + encryptedMessage);
 
             String decryptedMessage = decrypt(encryptedMessage, secretKey);
-            System.out.println("Decrypted message: " + decryptedMessage);
+            System.out.println("🔓 Decrypted: " + decryptedMessage);
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
@@ -35,4 +35,4 @@ public class EncryptionExample {
         byte[] decryptedBytes = cipher.doFinal(decodedBytes);
         return new String(decryptedBytes);
     }
-}0xed03Ed872159e199065401b6d0D487d78d9464AA
+}
