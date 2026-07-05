@@ -10,12 +10,12 @@ public class EncryptionExample {
 
         try {
             String encryptedMessage = encrypt(message, secretKey);
-            System.out.println("Encrypted message: " + encryptedMessage);
+            System.out.println("✅ Encrypted message: " + encryptedMessage);
 
             String decryptedMessage = decrypt(encryptedMessage, secretKey);
-            System.out.println("Decrypted message: " + decryptedMessage);
+            System.out.println("🔓 Decrypted message: " + decryptedMessage);
         } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("❌ Error: " + e.getMessage());
         }
     }
 
@@ -35,4 +35,4 @@ public class EncryptionExample {
         byte[] decryptedBytes = cipher.doFinal(decodedBytes);
         return new String(decryptedBytes);
     }
-}0xed03Ed872159e199065401b6d0D487d78d9464AA
+}
